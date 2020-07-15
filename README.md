@@ -21,6 +21,8 @@ ctrl+shift+p 找到Python Select  Interpreter（命令面板）
 
 ctrl+shift+d => create a launch.json file.=>Python=>Flask Launch and debug a Flask web application（运行)
 替换成
+
+
     {
         "name": "Python: FastAPI",
         "type": "python",
@@ -41,6 +43,8 @@ ctrl+shift+d => create a launch.json file.=>Python=>Flask Launch and debug a Fla
             "8000"
         ]
     }
+    
+    
 
 之后在FastApiModel文件下创建main.py文件，复制
 
