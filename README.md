@@ -8,15 +8,16 @@ ctrl+\`打开终端（+shift新终端）
 python -m venv env
 env\Scripts\activate
 
-（可选）批量全部更新并安装
-	python -m pip install --upgrade pip
-	pip install -r requirements.txt
+如果需要安装的依赖比较多
+可以执行命令pip install -r requirements.txt
 
 pip install fastapi
 pip install uvicorn
 
 ctrl+shift+p 找到Python Select  Interpreter（命令面板）
-选第一个Enter xxx=>Find=>选择env下的script下的python3
+
+选第一个Enter xxx=> Find => 选择env>script>python3
+
 这时就生成了settings.json文件
 
 ctrl+shift+d => create a launch.json file.=>Python=>Flask Launch and debug a Flask web application（运行)
